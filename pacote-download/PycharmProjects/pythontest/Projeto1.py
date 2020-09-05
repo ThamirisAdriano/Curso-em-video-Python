@@ -1,0 +1,5 @@
+produto = float(input('Preço do produto: R$ '))
+dez = produto + produto *(10/100)
+taxa = dez * (2.5/100)
+print(f'Novo preço: R$ {dez}')
+print(f'Taxa = {taxa}')
